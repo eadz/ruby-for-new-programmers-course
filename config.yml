@@ -3,6 +3,7 @@ description: An introduction to programming using the Ruby programming language
 template:
   repo: ruby-for-new-programmers-template
   name: ruby-for-new-programmers
+  description: Eaden's Ruby Course
 before:
   - type: createIssue
     title: Welcome!
