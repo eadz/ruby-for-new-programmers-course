@@ -1,0 +1,16 @@
+title: ruby-for-new-programmers
+description: An introduction to programming using the Ruby programming language
+template:
+  repo: ruby-for-new-programmers-template
+  name: ruby-for-new-programmers
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
